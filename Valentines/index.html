@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            background-color: pink;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        h1 {
+            color: red;
+            font-size: 2.5em;
+        }
+    
+        h2 {
+            font-size: 1.5em;
+        }
+    
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+    
+        button {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+    
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    
+       
+        audio {
+            display: none;
+        }
+    
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+    
+            h2 {
+                font-size: 1.2em;
+            }
+    
+            p {
+                font-size: 1em;
+            }
+    
+            button {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+    
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+    
+            .gallery img {
+                width: 45%;
+                margin: 10px 5%;
+            }
+        }
+    
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+    
+            h2 {
+                font-size: 1em;
+            }
+    
+            button {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+    
+            .gallery img {
+                width: 80%;
+                margin: 10px 10%;
+            }
+        }
+    
+        
+        @media screen and (min-width: 1200px) {
+            .container {
+                max-width: 800px;
+                padding: 30px;
+            }
+    
+            h1 {
+                font-size: 3em; 
+            }
+    
+            h2 {
+                font-size: 1.8em;
+            }
+    
+            p {
+                font-size: 1.4em;
+            }
+    
+            button {
+                font-size: 1.4em;
+                padding: 12px 24px;
+            }
+        }
+    
+    </style>
+    
+</head>
+<body>
+   
+    <audio autoplay loop>
+        <source src="sou" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <h1>Happy Valentine's Day, Babiiiii! ❤️</h1>
+        <p>You are my POKIEEEEEE BEAR!, and I can't wait to celebrate this special day with you!</p>
+        <h2>Will you join me for a romantic dinner?</h2>
+        <a href="details.html">
+            <button>Click to See Details</button>
+        </a>
+        
+        <h2>Our Memories Together &#128540;</h2>
+        <div class="gallery">
+            <img src="images/val1.jpeg" alt="Us together">
+            <img src="images/val2.jpeg" alt="Another sweet moment">
+            <img src="images/val3.jpeg" alt="Paks Forever">
+        </div>
+
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinner Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: pink;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        h1 {
+            color: red;
+            font-size: 2.5em;
+        }
+    
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    
+        .photo img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+    
+            p {
+                font-size: 1em;
+            }
+    
+            .photo img {
+                width: 80%;
+            }
+    
+            a {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+    
+        @media screen and (min-width: 1200px) {
+            .container {
+                max-width: 700px; 
+                padding: 30px;
+            }
+    
+            h1 {
+                font-size: 3em;
+            }
+    
+            p {
+                font-size: 1.4em;
+            }
+    
+            .photo img {
+                max-width: 350px;
+            }
+    
+            a {
+                font-size: 1.4em;
+                padding: 12px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dinner Details ❤️</h1>
+        <p><strong>Date:</strong> February 14th</p>
+        <p><strong>Time:</strong> 6:30 PM</p>
+        <p><strong>Place:</strong> Ikaw Bahala &#128513;</p>
+        <p><strong>Pickup Time:</strong> 6:30 PM</p>
+        <div class="photo">
+            <img src="images/val4.jpeg" alt="My face">
+        </div>
+        <a href="index.html">Back to Main Page</a>
+    </div>
+</body>
+</html>
